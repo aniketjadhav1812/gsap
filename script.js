@@ -25,7 +25,7 @@ gsap.to("#bar",{
 });
 gsap.to("#loader h1",{
   bottom: "50%",
-  duration:3,
+  duration:2.9,
 });
 };
 loading();
@@ -36,14 +36,14 @@ const width = window.innerWidth;
       width: "60%",
       rotate: "10deg",    
       duration: 1,
-      delay:3.6,
+      delay:3.7,
   })
   } else {
     tl.to("#images img",{
       width: "25%",
       rotate: "15deg",    
       duration: 1,
-      delay:3.6,
+      delay:3.7,
   })
   }
 tl.from("#text h1",{
