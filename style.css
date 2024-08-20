@@ -195,7 +195,7 @@ body {
     font-family: Roboto;
     font-size: 0.5em;
 }
-#images {
+#image {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -203,7 +203,7 @@ body {
     align-items: center;
     position: relative;
 }
-#images img {
+#image img {
     position: absolute;
     width: 5px;
     height: 50%;
