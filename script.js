@@ -31,22 +31,27 @@ const loading = () => {
 
   if (width < 500) {
     tl.to("#image img", {
-      width: "35%",
+      width: "60%",
       rotate: "10deg",
       duration: 1,
       delay: 3.7,
     });
-    tl.to("#image", {
-      borderRadius: "50%",
+    tl.to("#image  img", {
+      borderRadius: "50px",
       duration: 1,
       stagger:1
     });
   } else {
     tl.to("#image img", {
-      width: "25%",
+      width: "30%",
       rotate: "10deg",
       duration: 1,
       delay: 3.7,
+    });
+    tl.to("#image  img", {
+      borderRadius: "50%",
+      duration: 0.5,
+      stagger:0.5
     });
   }
   tl.from("#text h1", {
