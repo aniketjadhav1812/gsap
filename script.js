@@ -30,16 +30,21 @@ const loading = () => {
   const width = window.innerWidth;
 
   if (width < 500) {
-    tl.to("#images img", {
-      width: "60%",
+    tl.to("#image img", {
+      width: "35%",
       rotate: "10deg",
       duration: 1,
       delay: 3.7,
     });
+    tl.to("#image", {
+      borderRadius: "50%",
+      duration: 1,
+      stagger:1
+    });
   } else {
-    tl.to("#images img", {
+    tl.to("#image img", {
       width: "25%",
-      rotate: "15deg",
+      rotate: "10deg",
       duration: 1,
       delay: 3.7,
     });
